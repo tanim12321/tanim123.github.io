@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tanim Lift Solutions</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom right, #e0f7fa, #e1bee7);
+            color: #333;
+            animation: fadeIn 2s ease;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        header {
+            background-color: #4a148c;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .container {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .lift-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .lift-images img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .lift-images img:hover {
+            transform: scale(1.05);
+        }
+
+        .buttons {
+            margin-top: 40px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .facebook {
+            background-color: #3b5998;
+        }
+
+        .facebook:hover {
+            background-color: #2d4373;
+        }
+
+        .email {
+            background-color: #d44638;
+        }
+
+        .email:hover {
+            background-color: #b33128;
+        }
+
+        footer {
+            background-color: #4a148c;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tanim Lift Solutions</h1>
+        <p>Your Trusted Elevator Partner in Bangladesh</p>
+    </header>
+
+    <div class="container">
+        <h2>Our Premium Elevators</h2>
+        <div class="lift-images">
+            <img src="https://www.kone.com/Images/elevator-modernization_tcm17-68552.jpg" alt="Lift Image 1">
+            <img src="https://www.otis.com/-/media/images/otis/products/lift-modernization/otis-gen2-life-modernization.jpg" alt="Lift Image 2">
+            <img src="https://schindler.com/content/dam/web/b2b/products/elevators/schindler-3000/media/gallery/schindler-3000-passenger-elevator-interior.jpg" alt="Lift Image 3">
+        </div>
+
+        <div class="buttons">
+            <a class="facebook" href="https://www.facebook.com/share/12LEYa8qW6y/" target="_blank">Visit My Facebook</a>
+            <a class="email" href="mailto:yatanandabari@gmail.com">Email Me</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Tanim Lift Solutions | All Rights Reserved
+    </footer>
+
+</body>
+</html>
